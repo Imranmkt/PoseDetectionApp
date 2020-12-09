@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "790437307288",
+    "firebase_url": "https://posedetectionapp.firebaseio.com",
+    "project_id": "posedetectionapp",
+    "storage_bucket": "posedetectionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790437307288:android:4c775c9e6dd38cf3d341ed",
+        "android_client_info": {
+          "package_name": "com.example.posedetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790437307288-ubg8ejikrhpau3ddr0hnnt0cs8rajqlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.posedetectionapp",
+            "certificate_hash": "d8a115f253b010f17686e7e93531a80ff184dc4b"
+          }
+        },
+        {
+          "client_id": "790437307288-72rqmdbj3rdennfeem8450nbh9fkqar8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKW9GjQuy33ZmuQz9TWBXRRkxP6cLdc3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790437307288-72rqmdbj3rdennfeem8450nbh9fkqar8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

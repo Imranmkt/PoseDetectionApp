@@ -1,0 +1,12 @@
+<resources>
+
+    <string-array name="record_quality_entries">
+        <item>High Definition</item>
+        <item>Standard Definition</item>
+    </string-array>
+
+    <string-array name="record_quality_values">
+        <item>HD</item>
+        <item>SD</item>
+    </string-array>
+</resources>

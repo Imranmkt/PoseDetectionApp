@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuRecorder">
+
+    <fragment
+        android:id="@+id/menuRecorder"
+        android:name="com.example.posedetectionapp.usecase.recordings.RecordingFragment"
+        android:label="Record Pose Detection"
+        tools:layout="@layout/fragment_recording" />
+    <fragment
+        android:id="@+id/menuAllRecordings"
+        android:name="com.example.posedetectionapp.usecase.recordings.AllRecordingsFragment"
+        android:label="All Recordings"
+        tools:layout="@layout/fragment_all_recordings" />
+    <fragment
+        android:id="@+id/menuSettings"
+        android:name="com.example.posedetectionapp.usecase.settings.SettingsFragment"
+        android:label="Settings" />
+    <activity
+        android:id="@+id/welcomeActivity"
+        android:name="com.example.posedetectionapp.usecase.welcome.WelcomeActivity"
+        android:label="activity_welcome"
+        tools:layout="@layout/activity_welcome">
+        <argument
+            android:name="clearBackstack"
+            android:defaultValue="true"
+            app:argType="boolean" />
+    </activity>
+
+    <action
+        android:id="@+id/menuLogout"
+        app:destination="@id/welcomeActivity"
+        app:launchSingleTop="true"
+        app:popUpTo="@id/welcomeActivity" />
+
+
+
+</navigation>
+
